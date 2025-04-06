@@ -1,0 +1,83 @@
+/* Contenedor del formulario */
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.form:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Grupos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Campos de entrada */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+    outline: none;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+/* Estilo para el resultado */
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #e9f5ff;
+    color: #007bff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+/* Contenedor del resultado */
+.result {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #e9f5ff, #ffffff);
+    color: #007bff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Texto de error */
+.result p:first-child {
+    color: #ff4d4d; /* Rojo para errores */
+    font-weight: bold;
+}
