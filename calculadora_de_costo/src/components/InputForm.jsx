@@ -53,7 +53,7 @@ const InputForm = () => {
                     onChange={handleChange}
                 />
             </div>
-            <button className="btn" type="submit">Calcular</button>
+            <button aria-label="Calcular costo por uso" className="btn" type="submit">Calcular</button>
             {costPerUse !== null && <Result costPerUse={costPerUse} />} {/* Renderiza Result solo si costPerUse no es null */}
         </form>
     );
